@@ -62,7 +62,7 @@ public class RearWheelDrive : MonoBehaviour {
                 this.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
             }
         }
-        else
+        else if(tag.Equals("P2"))
         {
             if (Input.GetButtonDown(resetear))
             {

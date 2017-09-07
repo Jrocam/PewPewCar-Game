@@ -81,12 +81,11 @@
     <Compile Include="Assets\Ganador.cs" />
     <Compile Include="Assets\ReloadScene.cs" />
     <Compile Include="Assets\Scripts\BalaMove.cs" />
-    <Compile Include="Assets\Scripts\ControlCarro.cs" />
     <Compile Include="Assets\Scripts\DestructibleObject.cs" />
     <Compile Include="Assets\Scripts\Disparar.cs" />
     <Compile Include="Assets\Scripts\EasySuspension.cs" />
+    <Compile Include="Assets\Scripts\IAcarro.cs" />
     <Compile Include="Assets\Scripts\LlantaCilindro.cs" />
-    <Compile Include="Assets\Scripts\moverse.cs" />
     <Compile Include="Assets\Scripts\RearWheelDrive.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
